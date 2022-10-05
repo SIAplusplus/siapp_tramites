@@ -7,10 +7,11 @@ var app = express();
 //usar json en postman
 app.use(express.json());
 
-var {conexion}=require('./routes/router')
+var {conexion}=require('../Server/server')
 
-var {Cserver}=require('./view')
+var {Cserver}=require('../Routes/view')
 
+var {port}=require('../controller/puerto')
 
 app.get('/', function(req, res){
     res.send('INICIO');
@@ -84,6 +85,6 @@ app.delete('/api/tramites/:id',(req,res)=>{
 //process.env.PUERTO || 
 const puerto = 3000;
 
-app.listen(puerto, function(){
-    console.log('Conexion server: '+ puerto);
+app.listen(port, function(){
+    console.log('Conexion server: '+ port);
 });

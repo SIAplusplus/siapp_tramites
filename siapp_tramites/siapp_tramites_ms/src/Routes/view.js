@@ -1,7 +1,7 @@
 var express = require('express');
 var mysql = require('mysql');
 
-var {conexion}=require('./routes/router')
+var {conexion}=require('../Server/server')
 var app = express();
 
 //usar json en postman
