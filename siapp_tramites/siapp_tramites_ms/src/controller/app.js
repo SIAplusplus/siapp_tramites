@@ -83,7 +83,7 @@ app.delete('/api/tramites/:id',(req,res)=>{
     })
 });
 //process.env.PUERTO || 
-const puerto = 3000;
+//const puerto = 3000;
 
 app.listen(port, function(){
     console.log('Conexion server: '+ port);
