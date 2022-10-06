@@ -12,14 +12,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/prueba1/",
+					"raw": "localhost:3000/api/tramites/",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
 						"api",
-						"prueba1",
+						"tramites",
 						""
 					]
 				}
@@ -33,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"student_id\": 122,\r\n    \"motive\": \"Motivo 2\",\r\n    \"request_text\": \"Motivo text 2\"\r\n}",
+					"raw": "{\r\n    \"student_id\": 5,\r\n    \"motive\": \"Motivo 5\",\r\n    \"request_text\": \"Motivo text 5\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -41,14 +41,14 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000/api/prueba1/",
+					"raw": "localhost:3000/api/tramites/",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
 						"api",
-						"prueba1",
+						"tramites",
 						""
 					]
 				}
@@ -70,14 +70,14 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000/api/prueba1/2",
+					"raw": "localhost:3000/api/tramites/2",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
 						"api",
-						"prueba1",
+						"tramites",
 						"2"
 					]
 				}
@@ -90,14 +90,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/api/prueba1/2",
+					"raw": "localhost:3000/api/tramites/2",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
 						"api",
-						"prueba1",
+						"tramites",
 						"2"
 					]
 				}
